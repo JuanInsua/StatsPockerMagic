@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pangolin', cursive;
+    background-color: #31373D;
+}
+
+table {
+    border-collapse: collapse;
+    font-size:12px;
+}
+  
+table, th,td {
+    border: 1px solid whitesmoke;
+    cursor: default;
+    font-size:large;
+}
+
+button{
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #31373D;
+}
+.CALLbtn{
+    height: 42px;
+}
+.main-container{
+    background-color:black;
+    width : 920px;
+    margin: 0 auto;
+    text-align:center; 
+    color: white;
+}
+
+.HeaderSection{
+    margin: 0 auto;
+}
+
+.buttonLarge{
+    width: 150px !important; 
+}
+
+#MiddleContainer{
+    padding: 1rem;
+}
+
+#Title{
+    /*float:left;*/
+    padding-top: 10px;
+    padding-right: 80px;
+}
+
+#Logo{
+    padding-left: 10px;
+    max-height: 50px;
+}
+
+#TableSection{
+    width:500px;  
+    min-height: 400px; 
+    margin: 1rem;
+}
+
+#TableSection img{
+    width:80%; 
+    height: 400px; 
+    justify-content: center;   
+    align-self: center;     
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+#LeftButtons{
+    width: 200px;
+    padding: 2rem;
+}
+#CallTable{
+    margin-top: 2rem;
+    width: 250px;
+}
+#RightButtons{
+    margin-left: 10px;
+}
+
+/*#RolTable{
+    margin-top: 10px;
+}*/
+
+.hidden{
+    display:none;
+}
+
+.clear{
+    clear:both;
+}
+
+.left{
+    float: left;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.laterals{
+    width: 50px;
+}
+
+.tableButton{
+    text-align: center;
+    margin-top: 1rem;
+}
+.marginLeft10{
+    margin-left:1rem;
+}
+.selected{
+    background:whitesmoke;
+    color: black;
+}
+
+.paddingLeft10{
+    padding-left: 10px;
+}
+.paddingRight5{
+    padding-right: 5px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <LINK href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <title>Poker Magic</title>
+</head>
+<body>
+    <div class="main-container">
+        <div id="HeaderSection">
+            <div id="Logo" class="left">
+                <img src="favicon/apple-touch-icon.png">
+            </div>
+            <div id="Title" class="center">
+                <h1>Poker Magic</h1>
+            </div>  
+        </div>
+    
+        <div id="MiddleContainer">
+
+            <div id="TopButtons" class="clear">           
+                <table class="center">
+                    <tr>
+                        <th colspan="10">VSOR</th>                        
+                    </tr>
+                    <tr>                      
+                        <td colspan="1" class="paddingLeft10 paddingRight5">MP</td> 
+                        <td><button class="selected" data-img="tablas\1 VSOR\MP\MP VS EP\MP VS EP.png">VS EP</button></td>                                                                                 
+                    </tr>
+                    <tr>                      
+                        <td rowspan="1" class="paddingLeft10 paddingRight5">CO</td> 
+                        <td><button data-img="tablas\1 VSOR\CO\CO VS EP\CO VS EP.png">VS EP</button></td>
+                        <td><button data-img="tablas\1 VSOR\CO\CO VS MP\CO VS MP.png">VS MP</button></td>                                                                                    
+                    </tr> 
+                    <tr>                      
+                        <td rowspan="1" class="paddingLeft10 paddingRight5">BTN</td>
+                        <td><button data-img="tablas\1 VSOR\BTN\BTN VS EP\BRN VS EP.png">VS EP</button></td>
+                        <td><button data-img="tablas\1 VSOR\BTN\BTN VS MP\BTN VS MP.png">VS MP</button></td> 
+                        <td><button data-img="tablas\1 VSOR\BTN\BTN VS CO\BTN VS CO.png">VS CO</button></td>                                                     
+                    </tr> 
+                    <tr>    
+                        <td rowspan="1" class="paddingLeft10 paddingRight5">SB</td>
+                        <td><button data-img="tablas\1 VSOR\SB\SB VS EP\SB VS EP.png">VS EP</button></td>
+                        <td><button data-img="tablas\1 VSOR\SB\SB VS MP\SB VS MP.png">VS MP</button></td>  
+                        <td><button data-img="tablas\1 VSOR\SB\SB VS CO\SB VS CO.png">VS CO</button></td>            
+                        <td><button data-img="tablas\1 VSOR\SB\SB VS BTN\SB VS BTN.png">VS BTN</button></td>
+                    </tr> 
+                    <tr>                      
+                        <td class="paddingLeft10 paddingRight5">BB</td>  
+                        <td><button data-img="./tablas/1 VSOR/BB/BB VS EP/BB VS EP.png">VS EP</button></td>
+                        <td><button data-img="tablas\1 VSOR\BB\BB VS MP\BB VS MP.png">VS MP</button></td>
+                        <td><button data-img="./tablas/1 VSOR/BB/BB VS CO/BB VS CO.png">VS CO</button></td>
+                        <td><button data-img="./tablas/1 VSOR/BB/BB VS BTN/BB VS BTN.png">VS BTN</button></td>
+                        <td><button data-img="tablas\1 VSOR\BB\BB VS SB\BB VS SB.png">VS SB</button></td>                                                              
+                    </tr>                                                                        
+                </table>            
+            </div>
+
+            <div id="LeftButtons" class="left laterals">
+                <table id="CallTable" class="left">
+                    <tr id="CallTable">
+                        <th colspan="10">4CALL A Y 3BETS Y 4BETS</th>                       
+                    </tr>
+                    <tr>                
+                        <td class="paddingLeft10 paddingRight5">EP Y MP</td>
+                        <td class="paddingLeft10 paddingRight5">CO</td>
+                        <td class="paddingLeft10 paddingRight5">BTN</td>
+                        <td class="paddingLeft10 paddingRight5">SB</td>                                                         
+                    </tr>   
+                    <tr>
+                        <th colspan="10">VS</th>                       
+                    </tr>                   
+                    <tr>
+                        <td><button class="CALLbtn" data-img="tablas\2 CALL A 3BETS Y 4 BETS\EP Y MP\EP vs MP\EP VS MP.png">MP</button></td>                                                                                   
+                        <td><button class="CALLbtn" data-img="tablas\2 CALL A 3BETS Y 4 BETS\CO\CO VS BTN\CO VS BTN.png">BTN</button></td>
+                        <td><button class="CALLbtn" data-img="tablas\2 CALL A 3BETS Y 4 BETS\BTN\BTN VS SB Y BB\BTN VS SB Y BB.png">SB y BB</button></td>
+                        <td><button class="CALLbtn" data-img="tablas\2 CALL A 3BETS Y 4 BETS\SB\SB VS BB\SB VS BB.png">SB y BB</button></td>
+                    </tr>
+                    <tr>                        
+                        <td><button class="CALLbtn" data-img="tablas\2 CALL A 3BETS Y 4 BETS\EP Y MP\EP MP VS CO Y BTN\EP MP VS CO Y BTN.png">CO y BTN</button></td>                                                               
+                        <td><button class="CALLbtn" data-img="tablas\2 CALL A 3BETS Y 4 BETS\CO\CO VS SB Y BB\CO VS SB Y BB.png"> SB y BB</button></td>
+                    </tr>                      
+                    <tr>                      
+                        <td><button class="CALLbtn" data-img="tablas\2 CALL A 3BETS Y 4 BETS\EP Y MP\EP VS SB Y BB\EP VS SB O BB.png">SB y BB</button></td>                                                              
+                    </tr>
+                                        
+                </table>
+            </div> 
+            <div id="TableSection" class="left">
+                <img ID ="Table" src="tablas\1 VSOR\MP\MP VS EP\MP VS EP.png">         
+            </div>
+            <!-- <div id="RightButtons" class="left laterals">
+                <table id="CallTable" class="tableButton">
+                                
+                </table>
+            </div>    -->
+            <div id="BottomSection" class="clear">
+            <table class="center">
+                <tr>
+                    <th colspan="7">SQUEEZE</th>                        
+                </tr>
+                <tr>                      
+                    <td rowspan="1" class="paddingLeft10 paddingRight5">CO</td> 
+                    <td><button data-img="tablas\3 SQUEEZE\1 CO\CO VS EP Y MP\CO VS EP Y MP.png">VS EP Y MP</button></td>                                                                                   
+                </tr>  
+                <tr>                      
+                    <td rowspan="1" class="paddingLeft10 paddingRight5">BTN</td>
+                    <td><button data-img="tablas\3 SQUEEZE\2 BTN\1 BTN VS EP Y MP\BTN VS EP Y MP.png">VS EP Y MP</button></td>    
+                    <td><button data-img="tablas\3 SQUEEZE\2 BTN\BTN VS EP Y CO\BTN VS EP Y CO.png">VS EP Y CO</button></td>                                                 
+                </tr> 
+                <tr>    
+                    <td rowspan="1" class="paddingLeft10 paddingRight5">SB</td>
+                    <td><button data-img="tablas\3 SQUEEZE\3 SB\1 SB VS EP Y CO\SB VS EP Y CO.png">VS EP Y CO</button></td>
+                    <td><button data-img="tablas\3 SQUEEZE\3 SB\2 SB VS EP Y BTN\SB VS EP Y BTN.png">VS MP Y BTN</button></td>  
+                    <td><button data-img="tablas\3 SQUEEZE\3 SB\3 SB VS CO Y BTN\SB VS CO Y BTN.png">VS CO Y BTN</button></td>            
+                </tr> 
+                <tr>                      
+                    <td class="paddingLeft10 paddingRight5">BB</td>  
+                    <td><button data-img="tablas\3 SQUEEZE\4 BB\1 BB VS EP Y CO\BB VS EP Y CO.png">VS EP Y CO</button></td>
+                    <td><button data-img="tablas\3 SQUEEZE\4 BB\2 BB VS EP Y BTN\BB VS EP Y BTN.png">VS EP Y BTN</button></td>
+                    <td><button data-img="tablas\3 SQUEEZE\4 BB\3 BB VS EP Y SB\BB VS EP Y SB.png">VS EP Y SB</button></td>
+                    <td><button data-img="tablas\3 SQUEEZE\4 BB\4 BB VS CO Y BTN\BB VS CO Y BTN.png">VS CO Y BTN</button></td>
+                    <td><button data-img="tablas\3 SQUEEZE\4 BB\5 BB VS CO Y SB\BB VS CO Y SB.png">VS CO Y SB</button></td>  
+                    <td><button data-img="tablas\3 SQUEEZE\4 BB\6 BB VS BTN Y SB\BB VS BTN Y SB.png">VS BTN Y SB</button></td>                                                             
+                </tr>
+            </table>
+            </div>
+        </div>                                                          
+    </div>
+</body>
+<script type="text/javascript" src="./js/main.js"></script>
+</html>
